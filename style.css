@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #B0B0B0;
+	font-family: fantasy;
+}
+
+#app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#joueur-actuel{
+	font-size: 30px;
+}
+
+#erreur-message {
+	font-size: 20px;
+}
+
+#joueur-actuel, #erreur-message{
+	text-align: center;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	height: 40px;
+	width: 400px;
+}
+
+#canvas{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #EEE;
+	outline: 5px solid #FFF;
+	height: 450px;
+	width: 450px;
+}
+
+.case{
+	color: #FFF;
+	font-size: 100px;
+	cursor: pointer;
+	display:  flex;
+	justify-content:  center;
+	align-items: center;
+	outline: 2px solid #FFF;
+	height: 150px;
+	width: 150px;
+}
