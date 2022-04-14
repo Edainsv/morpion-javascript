@@ -53,3 +53,59 @@ body{
 	height: 150px;
 	width: 150px;
 }
+
+/* Popup statistic */
+
+#popupStatistics{
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-color:  rgba(0, 0, 0, 0.7);
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display:  flex;
+}
+
+#popupStatistics > div{
+	border-radius: 8px;
+	height: 300px;
+	width:  500px;
+	background-color: #FFF;
+	position: relative;
+}
+
+#cancelPopup{
+	cursor: pointer;
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	padding: 5px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	color: #DDD;
+	width:  18px;
+	height: 18px;
+	display:  flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#cancelPopup:hover{
+	border: 1px solid #BBB;
+	color: #BBB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
